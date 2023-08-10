@@ -18,3 +18,11 @@ local success, script = pcall(game.HttpGet, game, url)
 if success then
     loadstring(script)()
 end
+
+-- shared.Settings.Auto_Farm_Settings.Auto_Farm_Level = true
+
+-- shared.Settings.Weapons_Settings.Item_Name = "Melee"
+-- shared.Settings.Weapons_Settings.Equip = true
+
+-- shared.Settings.Stats_Settings.Selected_Stats = {"Melee"}
+-- shared.Settings.Stats_Settings.Auto_Stats = true
